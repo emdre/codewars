@@ -18,6 +18,6 @@ def nb_dig(n, d):
     for k in range(n+1):
         k = k ** 2
         text += str(k)
-        if str(d) in text:    
-           total = text.count(str(d))
+    if str(d) in text:    
+        total = text.count(str(d))
     return total 
